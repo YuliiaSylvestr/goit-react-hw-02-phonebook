@@ -50,6 +50,7 @@ class App extends Component {
       <div>
         <h2>Phonebook</h2>
         <ContactForm onAddContact={this.handleAddContact} />
+
         <h2>Contacts</h2>
         <Filter filter={filter} onFilter={this.handleFilter} />
         <ContactList
